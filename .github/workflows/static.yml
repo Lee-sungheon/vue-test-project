@@ -33,7 +33,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-      - run: yarn build
+      - run: npm run build
         env:
           CI: false
       - name: Upload artifact
