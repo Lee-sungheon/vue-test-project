@@ -3,7 +3,10 @@
     "collect": {
       "url": "http://localhost:4173/",
       "startServerCommand": "yarn preview",
-      "numberOfRuns": 1
+      "numberOfRuns": 1,
+      "settings": {
+        "preset": "desktop"
+      }
     },
     "assert": {
       "assertions": {
